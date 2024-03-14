@@ -510,6 +510,10 @@ footer h5 {
   color: white;
 }
 
+.recl__wrapper p {
+  color: white;
+}
+
 .recl__wrapper {
   background: url("../../img/pr.jpg");
   background-size: cover;
@@ -558,7 +562,10 @@ footer h5 {
   .train__wrapper p {
     font-size: 17px;
   }
+  .zal__wrapper,
+  .recl__wrapper,
   .train__wrapper,
+  .nat__wrapper,
   .reliz-items {
     grid-template-columns: 1fr;
   }
@@ -584,8 +591,17 @@ footer h5 {
   }
 }
 
-@media only screen and (max-width: 523px) {
-  .header-nav {
-    display: none;
+@media only screen and (max-width: 500px) {
+  .time-subsc {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .slider {
+    max-width: 200px;
+  }
+  .reviews-slider__items {
+    min-width: 180px;
   }
 }
