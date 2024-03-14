@@ -106,10 +106,12 @@
 }
 
 .reviews-slider__button--start {
+  background-color: rgb(255, 172, 251);
   left: 0;
 }
 .reviews-slider__button--end {
   right: 0;
+  background-color: rgb(255, 172, 251);
 }
 
 .img_slider {
