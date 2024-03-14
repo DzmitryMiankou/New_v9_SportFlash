@@ -550,3 +550,42 @@ footer h5 {
   font-size: 18px;
   padding-top: 40px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .hot-content {
+    flex-direction: column;
+  }
+  .train__wrapper p {
+    font-size: 17px;
+  }
+  .train__wrapper,
+  .reliz-items {
+    grid-template-columns: 1fr;
+  }
+  .form__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .form {
+    grid-template-areas:
+      "name"
+      "email"
+      "comment"
+      "chekbox"
+      "button";
+  }
+  .footer__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 723px) {
+  .slider {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 523px) {
+  .header-nav {
+    display: none;
+  }
+}
