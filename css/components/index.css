@@ -24,7 +24,7 @@
 
 .main__wrapper {
   position: relative;
-  background: url("../../img/main1.png");
+  background: url("../../img/main1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -242,7 +242,7 @@
 }
 
 .form__wrapper {
-  background: url("../../img/main1.png");
+  background: url("../../img/main1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

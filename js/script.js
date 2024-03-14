@@ -21,6 +21,7 @@ function openHeaderMenu(event) {
     openW = !openW;
     HEADER_NAV.classList.add("header-nav" + "--active");
     HEADER_BLUER.classList.add("header__bluer" + "--active");
+    document.body.classList.add("body--scroll");
   }
   if (
     event.target.closest(".header__bluer") ||
@@ -32,6 +33,7 @@ function openHeaderMenu(event) {
       HEADER_BLUER.classList.remove("header__bluer" + "--active");
       HEADER_BLUER.classList.remove("header__bluer--clouse");
       HEADER_NAV.classList.remove("header-nav--clouse");
+      document.body.classList.remove("body--scroll");
     }, 300);
     HEADER_BLUER.classList.add("header__bluer--clouse");
     HEADER_NAV.classList.add("header-nav--clouse");

@@ -61,19 +61,17 @@
   z-index: 50;
 }
 
-.header__bluer--active {
-  display: block;
-}
-
 .header__bluer--clouse {
   animation-name: bluerAnimClouse;
   animation-duration: 400ms;
   transition-timing-function: ease-out;
 }
 
+.header__bluer,
 .header__button {
   display: none;
 }
+
 .header__wrapper {
   max-width: var(--max-width);
   padding: 0 40px;
@@ -139,6 +137,7 @@ button {
     animation-duration: 400ms;
     transition-timing-function: ease-out;
   }
+
   .header__button {
     display: block;
   }
@@ -146,8 +145,13 @@ button {
     display: flex;
     flex-direction: column;
   }
-
+  .header__bluer--active {
+    display: block;
+  }
   .svg {
     display: none;
+  }
+  .body--scroll {
+    overflow: hidden;
   }
 }
